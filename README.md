@@ -9,4 +9,4 @@
 - `dataset.csv`: Dataset experimental para la síntesis de nanopartículas de PLGA en microfluídica.
 - `resultados/`: Directorio con tablas de métricas exportadas (`holdout.csv`, `cv_aleatoria.csv`, `comparacion.csv`, `gap.csv`, `extrapolacion.csv`, etc.) y gráficos generados (`paridad.pdf`, `gap_rmse.pdf`, `shap_summary.pdf`).
 
-![](https://pubs.rsc.org/view-large/figure/54513468/d6lc00612d-ga.tifhttps://pubs.rsc.org/view-large/figure/54513468/d6lc00612d-ga.tif)
+![Esquema ilustrativo del circuito microfluidico, tomado de (Saeed et al, 2026)](imgns/ManischemePLGA.png)
