@@ -1,0 +1,68 @@
+# ==========================================
+# Python & Entornos Virtuales
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# Jupyter Notebooks & Checkpoints
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# ==========================================
+# C++ / Compilación / Cmake
+# ==========================================
+*.o
+*.obj
+*.so
+*.dylib
+*.a
+*.exe
+*.out
+*.app
+build/
+bin/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+
+# ==========================================
+# Datos Masivos & Trajetorias de Simulación
+# (Ajusta si necesitas incluir archivos pequeños)
+# ==========================================
+*.trr
+*.xtc
+*.edr
+*.cpt
+*.tpr
+*.dcd
+*.nc
+*.log
+*.dat
+*.csv
+*.h5
+*.hdf5
+
+# Excepciones para archivos de datos necesarios:
+# !datos_entrada.csv
+
+# ==========================================
+# Sistemas Operativos & Editores (Linux / VS Code)
+# ==========================================
+.DS_Store
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+.directory
+
+# Cache & Logs de herramientas de Análisis / Git
+.pytest_cache/
+.coverage
+htmlcov/
